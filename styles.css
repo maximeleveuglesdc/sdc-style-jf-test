@@ -178,8 +178,8 @@ em { color: #6821d4; font-style: normal; }
 .person:hover img { filter: saturate(1); transform: translateY(-3px); }
 .person h3 { margin: 17px 0 0; font-size: 14px; letter-spacing: -.02em; }
 .person p { min-height: 32px; margin: 5px 0 0; color: var(--muted); font-size: 10px; line-height: 1.45; }
-.team-grid-full .person h3 { font-size: 12px; }
-.team-grid-full .person p { font-size: 9px; }
+.team-grid-full .person h3 { font-size: 13px; }
+.team-grid-full .person p { font-size: 10px; line-height: 1.5; }
 
 .sector-rail { position: relative; z-index: 5; border-block: 1px solid var(--line); background: white; }
 .sector-rail-inner { display: flex; min-height: 84px; align-items: center; gap: 28px; overflow-x: auto; scrollbar-width: none; }
