@@ -25,8 +25,17 @@
       <nav class="site-nav" id="site-nav" data-nav>
         <a href="#solution">La solution</a>
         <a href="#methode">La méthode</a>
-        <a href="#systemes">Les systèmes</a>
-        <a href="#equipe">L’équipe</a>
+        <details class="nav-details">
+          <summary>Les systèmes</summary>
+          <div class="nav-panel">
+            <a href="./restaurant/">Restaurant</a>
+            <a href="./traiteur/">Traiteur</a>
+            <a href="./rpa/">RPA</a>
+            <a href="./pourvoirie/">Pourvoirie</a>
+            <a href="./boulangerie/">Boulangerie</a>
+          </div>
+        </details>
+        <a href="./equipe/">L’équipe</a>
       </nav>
       <a class="button button-small button-orange header-cta" href="mailto:info@structuredecuisine.ca?subject=Demande%20de%20d%C3%A9monstration%20SDC&body=Bonjour%2C%0A%0AJ%27aimerais%20avoir%20acc%C3%A8s%20%C3%A0%20la%20plateforme%20de%20d%C3%A9monstration%20SDC.%0A%0AMerci.">
         Demander une démo <span aria-hidden="true">↗</span>
@@ -80,6 +89,42 @@
         </div>
       </section>
 
+      <section class="team-section team-section-early light-section" id="equipe">
+        <div class="shell">
+          <div class="team-heading reveal">
+            <div>
+              <p class="eyebrow"><span></span> De vrais humains derrière le système</p>
+              <h2>Une firme de chefs qui connaît le terrain.</h2>
+            </div>
+            <div class="team-heading-aside">
+              <p>Nos méthodes viennent des cuisines que nous avons ouvertes, dirigées et restructurées ensemble.</p>
+              <a class="text-link" href="./equipe/">Découvrir les parcours complets <span>→</span></a>
+            </div>
+          </div>
+          <div class="team-grid team-grid-full">
+            <article class="person reveal"><img src="https://media.base44.com/images/public/6a1e650413ca19ba5ec7c178/e9e5fadb1_YSR3tz8l.jpg" alt="Maxime Leveugle" /><h3>Maxime Leveugle</h3><p>Fondateur · Chef exécutif · Direction des opérations</p></article>
+            <article class="person reveal"><img src="https://media.base44.com/images/public/6a1e650413ca19ba5ec7c178/e4a09f8ff_guillaume.jpg" alt="Guillaume Roche Ballard" /><h3>Guillaume Roche Ballard</h3><p>Chef implanteur · Professeur à l’ITHQ de Montréal</p></article>
+            <article class="person reveal"><img src="https://media.base44.com/images/public/6a1e650413ca19ba5ec7c178/75108a4de_charles.jpg" alt="Charles Bourget" /><h3>Charles Bourget</h3><p>Responsable des opérations cuisine</p></article>
+            <article class="person reveal"><img src="https://structuredecuisine.ca/sdc-static/team/marc-alexis-pepin.jpg" alt="Marc-Alexis Pépin" /><h3>Marc-Alexis Pépin</h3><p>Chef implanteur · Traiteur et restauration · Montréal</p></article>
+            <article class="person reveal"><img src="https://media.base44.com/images/public/6a1e650413ca19ba5ec7c178/7f61ac1ae_Screenshot_20260726_223951_Facebook2.jpg" alt="Guy Bergy" /><h3>Guy Bergy</h3><p>Chef spécialiste RPA</p></article>
+            <article class="person reveal"><img src="https://media.base44.com/images/public/6a1e650413ca19ba5ec7c178/59793a19a_mariepieretmaxime.jpg" alt="Marie-Pier Perron" /><h3>Marie-Pier Perron</h3><p>Coordination de projets · Suivi client</p></article>
+            <article class="person reveal"><img src="https://media.base44.com/images/public/6a1e650413ca19ba5ec7c178/a75244af2_494001424_23863130006643779_5231472724979624346_n.jpg" alt="Julien Hauguel" /><h3>Julien Hauguel</h3><p>Chef pâtissier-boulanger · Implanteur SDC</p></article>
+            <article class="person reveal"><img src="https://structuredecuisine.ca/sdc-static/team/davis-furlong.jpeg" alt="Davis Furlong" /><h3>Davis Furlong</h3><p>Ambassadeur SDC · Gaspésie · Bars et restaurants</p></article>
+          </div>
+        </div>
+      </section>
+
+      <nav class="sector-rail" id="systemes" aria-label="Explorer les systèmes par secteur">
+        <div class="shell sector-rail-inner">
+          <span>Explorer par secteur</span>
+          <a href="./restaurant/">Restaurant ↗</a>
+          <a href="./traiteur/">Traiteur ↗</a>
+          <a href="./rpa/">RPA ↗</a>
+          <a href="./pourvoirie/">Pourvoirie ↗</a>
+          <a href="./boulangerie/">Boulangerie ↗</a>
+        </div>
+      </nav>
+
       <section class="story light-section">
         <article class="story-row shell">
           <div class="story-number reveal">01</div>
@@ -88,10 +133,11 @@
             <h3>On voit ce qui se passe <em>pendant le vrai service</em>.</h3>
             <p>Nos chefs observent les postes, les méthodes, les pertes d’information et les décisions qui reposent encore sur une seule personne.</p>
           </div>
-          <figure class="story-image reveal reveal-delay">
-            <img src="https://structuredecuisine.ca/sdc-static/team/guillaume-accueil.jpg?v=20260828" alt="Guillaume Roche Ballard, chef implanteur SDC, en cuisine" />
-            <figcaption>Guillaume · Chef implanteur et professeur à l’ITHQ de Montréal</figcaption>
-          </figure>
+          <div class="observation-card reveal reveal-delay">
+            <div><span>Observer</span><p>Les postes, les gestes et le flux du service.</p></div>
+            <div><span>Comprendre</span><p>Ce qui ralentit, se perd ou dépend d’une seule personne.</p></div>
+            <div><span>Prioriser</span><p>Les changements qui donnent rapidement de l’air à l’équipe.</p></div>
+          </div>
         </article>
 
         <article class="story-row story-row-reverse shell">
@@ -144,71 +190,34 @@
         </div>
       </section>
 
-      <section class="capabilities light-section" id="systemes">
-        <div class="shell">
-          <div class="section-heading reveal">
-            <p class="eyebrow"><span></span> Un seul système, cinq réalités</p>
-            <h2>Votre secteur change. La logique reste claire.</h2>
+      <section class="gitane-case light-section" id="gitane">
+        <div class="shell gitane-intro">
+          <div class="gitane-kicker reveal">
+            <p class="eyebrow"><span></span> Cas réel · La Gitane</p>
+            <span class="case-status"><i></i> Mandat toujours actif</span>
           </div>
-          <div class="capability-list">
-            <a href="#demo" class="capability reveal"><span class="capability-index">01</span><strong>Restaurant</strong><span>Recettes · Coûts · Production</span><b>↗</b></a>
-            <a href="#demo" class="capability reveal"><span class="capability-index">02</span><strong>Traiteur</strong><span>Événements · Volumes · Commandes</span><b>↗</b></a>
-            <a href="#demo" class="capability reveal"><span class="capability-index">03</span><strong>RPA</strong><span>Menus cycliques · Textures · Traçabilité</span><b>↗</b></a>
-            <a href="#demo" class="capability reveal"><span class="capability-index">04</span><strong>Pourvoirie</strong><span>Séjours · Stocks · Éloignement</span><b>↗</b></a>
-            <a href="#demo" class="capability reveal"><span class="capability-index">05</span><strong>Boulangerie</strong><span>Rendements · Planification · Pertes</span><b>↗</b></a>
+          <div class="gitane-title-grid">
+            <h2 class="reveal">Du premier appel aux vrais services : <em>tout le mandat, dans l’ordre</em>.</h2>
+            <div class="gitane-summary reveal">
+              <p>La Gitane ne cherchait pas un logiciel. Les propriétaires avaient besoin de construire le volet cuisine d’une nouvelle ouverture : menu, coûts, brigade, fournisseurs, matériel, production, formation et système.</p>
+              <p>Depuis juin 2026, SDC dirige cette construction. Guillaume agit sur place comme chef formateur et implanteur; Maxime pilote l’ensemble du mandat avec lui.</p>
+            </div>
           </div>
+          <div class="gitane-metrics reveal"><div><strong>11 étapes</strong><span>reliées dans un même mandat</span></div><div><strong>Des centaines</strong><span>d’heures cumulées</span></div><div><strong>Sur place</strong><span>pendant l’ouverture</span></div><div><strong>Aujourd’hui</strong><span>le SCOS vit avec l’équipe</span></div></div>
         </div>
-      </section>
 
-      <section class="field-proof light-section">
-        <div class="shell">
-          <div class="field-card reveal">
-            <div class="field-visual">
-              <img src="https://structuredecuisine.ca/sdc-static/team/guillaume-accueil.jpg?v=20260828" alt="Guillaume en accompagnement terrain" />
-              <span>Mandat actif · Depuis juin 2026</span>
-            </div>
-            <div class="field-copy">
-              <p class="eyebrow eyebrow-light"><span></span> Cas réel · La Gitane</p>
-              <h2>Une ouverture accompagnée de A à Z, jusque dans les vrais services.</h2>
-              <p>Guillaume est sur place avec l’équipe depuis deux mois. Le restaurant a ouvert, la brigade travaille avec son système et l’accompagnement continue.</p>
-              <div class="field-stats">
-                <div><strong>2 mois+</strong><span>sur le terrain</span></div>
-                <div><strong>Ouvert</strong><span>et en activité</span></div>
-                <div><strong>SCOS</strong><span>utilisé par l’équipe</span></div>
-              </div>
-              <a class="text-link text-link-light" href="https://lagitane.ca/" target="_blank" rel="noreferrer">Voir La Gitane en activité <span>↗</span></a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="team-section light-section" id="equipe">
-        <div class="shell">
-          <div class="team-heading reveal">
-            <div>
-              <p class="eyebrow"><span></span> De vrais humains derrière le système</p>
-              <h2>Une firme de chefs qui connaît le terrain.</h2>
-            </div>
-            <p>Nos méthodes viennent des cuisines que nous avons ouvertes, dirigées et restructurées ensemble.</p>
-          </div>
-          <div class="team-grid">
-            <article class="person reveal">
-              <img src="https://media.base44.com/images/public/6a1e650413ca19ba5ec7c178/e9e5fadb1_YSR3tz8l.jpg" alt="Maxime Leveugle" />
-              <h3>Maxime Leveugle</h3><p>Fondateur · Chef exécutif</p>
-            </article>
-            <article class="person reveal">
-              <img src="https://media.base44.com/images/public/6a1e650413ca19ba5ec7c178/e4a09f8ff_guillaume.jpg" alt="Guillaume Roche Ballard" />
-              <h3>Guillaume Roche Ballard</h3><p>Chef implanteur · Professeur à l’ITHQ</p>
-            </article>
-            <article class="person reveal">
-              <img src="https://media.base44.com/images/public/6a1e650413ca19ba5ec7c178/75108a4de_charles.jpg" alt="Charles Bourget" />
-              <h3>Charles Bourget</h3><p>Responsable des opérations cuisine</p>
-            </article>
-            <article class="person reveal">
-              <img src="https://structuredecuisine.ca/sdc-static/team/marc-alexis-pepin.jpg" alt="Marc-Alexis Pépin" />
-              <h3>Marc-Alexis Pépin</h3><p>Chef implanteur · Montréal</p>
-            </article>
-          </div>
+        <div class="shell gitane-timeline">
+          <article class="timeline-step reveal"><div class="timeline-marker"><span>01</span><i></i></div><div class="timeline-date">Juin 2026</div><div class="timeline-copy"><h3>L’appel et l’analyse du projet</h3><p>Les propriétaires confient à SDC la construction complète du volet cuisine. Nous clarifions leur idée, le lieu, le niveau de service souhaité, les contraintes physiques et tout ce qui manque encore pour transformer le projet en opération.</p></div></article>
+          <article class="timeline-step reveal"><div class="timeline-marker"><span>02</span><i></i></div><div class="timeline-date">Juin 2026</div><div class="timeline-copy"><h3>La structure d’ouverture</h3><p>Nous bâtissons l’ordre de travail : menu, brigade, fournisseurs, équipements, coûts, méthodes, formation et système de gestion. Chaque chantier est placé au bon moment pour éviter que les décisions se prennent toutes dans l’urgence.</p></div></article>
+          <article class="timeline-step reveal"><div class="timeline-marker"><span>03</span><i></i></div><div class="timeline-date">Fin juin</div><div class="timeline-copy"><h3>Guillaume arrive sur place</h3><p>Guillaume Roche Ballard entre dans la cuisine comme chef formateur et implanteur SDC. Il observe le terrain, précise les besoins et devient le lien quotidien entre les propriétaires, la brigade et Maxime.</p></div></article>
+          <article class="timeline-step reveal"><div class="timeline-marker"><span>04</span><i></i></div><div class="timeline-date">Juin — juillet</div><div class="timeline-copy"><h3>Le menu devient une opération rentable</h3><p>L’idée de départ est retravaillée jusqu’à un menu complet et exécutable. Recettes, rendements, food costs, données financières utiles et prix de vente sont construits ensemble pour relier l’assiette à la rentabilité.</p></div></article>
+          <article class="timeline-step reveal"><div class="timeline-marker"><span>05</span><i></i></div><div class="timeline-date">Juillet</div><div class="timeline-copy"><h3>La brigade est recrutée et intégrée</h3><p>SDC rédige et publie les annonces, cherche les profils, participe au recrutement et intègre les nouvelles personnes. Le suivi RH se poursuit pendant un démarrage où les besoins évoluent rapidement.</p></div></article>
+          <article class="timeline-step reveal"><div class="timeline-marker"><span>06</span><i></i></div><div class="timeline-date">Juillet</div><div class="timeline-copy"><h3>Les fournisseurs et le matériel sont mis en place</h3><p>Nous développons les relations fournisseurs, structurons l’approvisionnement, dressons les listes d’équipement et procédons aux achats nécessaires pour rendre la cuisine fonctionnelle.</p></div></article>
+          <article class="timeline-step reveal"><div class="timeline-marker"><span>07</span><i></i></div><div class="timeline-date">Avant l’ouverture</div><div class="timeline-copy"><h3>La cuisine, les postes et la production sont organisés</h3><p>Le matériel est placé selon le service réel, les postes sont définis et les séquences de production sont établies. Les fiches techniques, méthodes et repères sont intégrés au SCOS La Gitane.</p></div></article>
+          <article class="timeline-step reveal"><div class="timeline-marker"><span>08</span><i></i></div><div class="timeline-date">Préouverture</div><div class="timeline-copy"><h3>La formation passe du document au terrain</h3><p>Guillaume forme la brigade dans la cuisine, montre les méthodes, accompagne les premières productions et ajuste le système avec les personnes qui devront réellement l’utiliser.</p></div></article>
+          <article class="timeline-step reveal"><div class="timeline-marker"><span>09</span><i></i></div><div class="timeline-date">Ouverture</div><div class="timeline-copy"><h3>SDC reste présent pendant les vrais services</h3><p>Le restaurant ouvre avec Guillaume sur place. Les rôles, les quantités, le matériel et les méthodes sont corrigés en situation réelle afin que la structure tienne au-delà de la journée d’ouverture.</p></div></article>
+          <article class="timeline-step reveal"><div class="timeline-marker"><span>10</span><i></i></div><div class="timeline-date">Après l’ouverture</div><div class="timeline-copy"><h3>L’équipe et la cuisine sont recalibrées</h3><p>Certains besoins changent, comme dans toute ouverture. Nous relançons du recrutement, réajustons les responsabilités, replaçons du matériel, recalibrons les postes et mettons le SCOS à jour.</p></div></article>
+          <article class="timeline-step timeline-step-last reveal"><div class="timeline-marker"><span>11</span></div><div class="timeline-date">Août 2026 — aujourd’hui</div><div class="timeline-copy"><h3>Le mandat est toujours actif</h3><p>Guillaume est encore sur place, la brigade utilise le SCOS La Gitane et SDC poursuit le suivi avec les propriétaires. Le restaurant fonctionne, le système vit avec l’équipe et l’accompagnement continue.</p><div class="timeline-result"><strong>Le résultat :</strong> un restaurant ouvert, une brigade en activité et un système construit avec les opérations — pas ajouté après coup.</div><a class="text-link" href="https://lagitane.ca/" target="_blank" rel="noreferrer">Voir La Gitane en activité <span>↗</span></a></div></article>
         </div>
       </section>
 
