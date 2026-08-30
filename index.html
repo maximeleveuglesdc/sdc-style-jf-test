@@ -3,9 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Prototype de direction visuelle pour Structure de Cuisine — test GitHub indépendant." />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="description" content="Structure de Cuisine : des chefs expérimentés structurent les recettes, le food cost, la production, l’équipe et les opérations dans un système sur mesure." />
     <meta name="theme-color" content="#08070b" />
-    <title>Structure de Cuisine — Prototype direction JF</title>
+    <meta property="og:locale" content="fr_CA" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Structure de Cuisine | Systèmes et conseil pour cuisines professionnelles" />
+    <meta property="og:description" content="Des chefs expérimentés structurent les recettes, les coûts, la production et les opérations dans un système fait pour votre cuisine." />
+    <title>Structure de Cuisine | Systèmes et conseil pour cuisines professionnelles</title>
     <link rel="preconnect" href="https://media.base44.com" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
@@ -15,7 +20,7 @@
     </div>
 
     <header class="site-header" data-header>
-      <a class="brand" href="#top" aria-label="Structure de Cuisine — Retour en haut">
+      <a class="brand" href="./" aria-label="Structure de Cuisine — Accueil">
         <span class="brand-mark">SDC</span>
         <span class="brand-copy"><strong>Structure de Cuisine</strong><small>Système de gestion</small></span>
       </a>
@@ -23,8 +28,18 @@
         <span></span><span></span><span></span><span class="sr-only">Menu</span>
       </button>
       <nav class="site-nav" id="site-nav" data-nav>
-        <a href="#solution">La solution</a>
-        <a href="#methode">La méthode</a>
+        <a href="./solution/">La solution</a>
+        <details class="nav-details">
+          <summary>Expertise</summary>
+          <div class="nav-panel nav-panel-wide">
+            <a href="./consultant-restauration-quebec/">Consultant en restauration</a>
+            <a href="./ouverture-restaurant-quebec/">Ouverture de restaurant</a>
+            <a href="./organisation-cuisine-professionnelle/">Organisation de cuisine</a>
+            <a href="./food-cost-restaurant/">Food cost</a>
+            <a href="./formation-equipe-cuisine/">Formation d’équipe</a>
+            <a href="./etude-de-cas-la-gitane/">Cas La Gitane</a>
+          </div>
+        </details>
         <details class="nav-details">
           <summary>Les systèmes</summary>
           <div class="nav-panel">
@@ -37,8 +52,8 @@
         </details>
         <a href="./equipe/">L’équipe</a>
       </nav>
-      <a class="button button-small button-orange header-cta" href="mailto:info@structuredecuisine.ca?subject=Demande%20de%20d%C3%A9monstration%20SDC&body=Bonjour%2C%0A%0AJ%27aimerais%20avoir%20acc%C3%A8s%20%C3%A0%20la%20plateforme%20de%20d%C3%A9monstration%20SDC.%0A%0AMerci.">
-        Demander une démo <span aria-hidden="true">↗</span>
+      <a class="button button-small button-orange header-cta" href="./rendez-vous/">
+        Appel gratuit · 30 min <span aria-hidden="true">↗</span>
       </a>
     </header>
 
@@ -53,7 +68,7 @@
             <p class="hero-lead">Des chefs s’investissent dans votre cuisine pour structurer les recettes, la production et les opérations dans un seul système clair.</p>
             <p class="hero-relief">Votre équipe sait quoi faire. Vous savez où vous en êtes. <strong>Vous pouvez enfin souffler.</strong></p>
             <div class="hero-actions">
-              <a class="button button-orange" href="#contact">Parler 30 min avec Maxime <span>→</span></a>
+              <a class="button button-orange" href="./rendez-vous/">Parler 30 min avec Maxime <span>→</span></a>
               <a class="text-link text-link-light" href="#solution">Voir comment ça fonctionne <span>↓</span></a>
             </div>
           </div>
@@ -230,7 +245,7 @@
             <p>Recevez un accès à un restaurant fictif contenant des recettes, des productions et des données cohérentes. Vous pourrez voir concrètement le type de système que SDC construit pour un établissement.</p>
           </div>
           <div class="demo-actions reveal reveal-delay">
-            <a class="button button-orange" href="#contact">Voir la bonne démonstration avec nous <span>→</span></a>
+            <a class="button button-orange" href="./contact/?sujet=demonstration">Voir la bonne démonstration avec nous <span>→</span></a>
             <a class="mail-card" href="mailto:info@structuredecuisine.ca?subject=D%C3%A9monstration&body=Bonjour%2C%0A%0AJ%27aimerais%20recevoir%20un%20acc%C3%A8s%20%C3%A0%20la%20plateforme%20de%20d%C3%A9monstration%20SDC%20avec%20un%20%C3%A9tablissement%20fictif.%0A%0AMerci.">
               <small>Ou écrivez simplement</small>
               <strong>« démonstration »</strong>
@@ -261,18 +276,17 @@
             <h2>Montrez-nous où ça bloque. On vous dira ce qu’on peut structurer.</h2>
             <p>Un appel de 30 minutes, gratuit et sans engagement.</p>
           </div>
-          <a class="button button-orange" href="mailto:info@structuredecuisine.ca?subject=Appel%20d%C3%A9couverte%20SDC">Parler 30 min avec Maxime <span>→</span></a>
+          <a class="button button-orange" href="./rendez-vous/">Parler 30 min avec Maxime <span>→</span></a>
         </div>
       </section>
     </main>
 
-    <footer class="site-footer">
-      <div class="shell footer-inner">
-        <a class="brand" href="#top"><span class="brand-mark">SDC</span><span class="brand-copy"><strong>Structure de Cuisine</strong><small>Système de gestion</small></span></a>
-        <p>Prototype de direction visuelle · Août 2026</p>
-        <a href="mailto:info@structuredecuisine.ca">info@structuredecuisine.ca</a>
-      </div>
-    </footer>
+    <footer class="site-footer site-footer-full"><div class="shell footer-map">
+      <div class="footer-brand"><a class="brand" href="./"><span class="brand-mark">SDC</span><span class="brand-copy"><strong>Structure de Cuisine</strong><small>Système de gestion</small></span></a><p>Des chefs expérimentés structurent vos recettes, vos coûts, votre production et vos opérations dans un système fait pour votre cuisine.</p></div>
+      <div><h2>Expertise</h2><a href="./consultant-restauration-quebec/">Consultant en restauration</a><a href="./ouverture-restaurant-quebec/">Ouverture de restaurant</a><a href="./organisation-cuisine-professionnelle/">Organisation de cuisine</a><a href="./food-cost-restaurant/">Food cost</a><a href="./formation-equipe-cuisine/">Formation d’équipe</a></div>
+      <div><h2>Systèmes</h2><a href="./restaurant/">Restaurant</a><a href="./traiteur/">Traiteur</a><a href="./rpa/">RPA</a><a href="./pourvoirie/">Pourvoirie</a><a href="./boulangerie/">Boulangerie</a></div>
+      <div><h2>Structure de Cuisine</h2><a href="./a-propos/">À propos</a><a href="./equipe/">L’équipe</a><a href="./etude-de-cas-la-gitane/">Étude de cas La Gitane</a><a href="./outils/">Outils gratuits</a><a href="./ressources/">Ressources</a><a href="./faq/">FAQ</a><a href="./contact/">Contact</a></div>
+    </div><div class="shell footer-bottom"><span>Prototype GitHub · Non indexé · IONOS intact</span><div><a href="./conditions/">Conditions</a><a href="./confidentialite/">Confidentialité</a><a href="mailto:info@structuredecuisine.ca">info@structuredecuisine.ca</a></div></div></footer>
 
     <script src="./script.js"></script>
   </body>

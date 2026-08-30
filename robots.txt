@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+# Maquette GitHub uniquement. Le site officiel indexable demeure structuredecuisine.ca.

@@ -36,7 +36,6 @@ put('[data-sector-accent]', sector.accent);
 put('[data-pain-title]', sector.painTitle);
 put('[data-result-title]', sector.resultTitle);
 put('[data-demo-establishment]', sector.demo);
-document.title = `${sector.eyebrow} — Structure de Cuisine`;
 const preview = document.querySelector('[data-sector-preview]');
 if (preview) { preview.src = sector.preview; preview.alt = `Aperçu du ${sector.accent}`; }
 const fillList = (selector, items) => { const node = document.querySelector(selector); if (node) node.innerHTML = items.map((item) => `<li>${item}</li>`).join(''); };
